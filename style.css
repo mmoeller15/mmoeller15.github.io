@@ -1,0 +1,89 @@
+body {
+    background-color: #4b2b31;
+    color: #ce8054
+}
+
+h1{
+    color: #b35340;
+    background-color: #233342;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 450%;
+    text-align: center;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 400%;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+    text-align: center;
+    background-color: #233342;
+}
+
+h4{
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+h5{
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 110%;
+    text-align: justify;
+}
+
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 110%;
+    text-align: left;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.nameStyle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 400%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.smallFont{
+    font-size: 80%;
+    text-align: center;
+}
+
+.smallFontLeft{
+    font-size: 80%;
+    text-align: left;
+    margin: 0;
+}
+
+a {
+    color: #ce8054;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+}
+a:visited{color: #b35340;}
+a:hover, a:active{color: #FFFDD0;}
+
+.outlierLink{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55%;
+    text-align: left;
+    text-decoration: underline;
+}

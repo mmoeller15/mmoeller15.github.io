@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>fun</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="off-canvas-wrapper hide-for-large">
+      <div class="grid-x grid-padding-x">
+            <button type="button" class="menu-icon" data-toggle="offCanvas"></button>    
+      </div>
+     <h1>Fun</h1>     
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+         <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="./index.html">Home Page</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./fun.html">Fun</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class= "show-for-large">
+    <!-- main content within a `grid-container` -->
+        <div class="grid-container">
+            <!-- `grid-x` represents a row -->
+            <div class="grid-x grid-padding-x">
+                <div class="cell large-3" style="background-color: #233342;"><a href="./index.html">Home Page</a></div>
+                <div class="cell large-3" style="background-color: #233342;"><a href="./resume.html">Resume</a></div>
+                <div class="cell large-3" style="background-color: #233342;"><a href="./projects.html">Projects</a></div>
+                <div class="cell large-3" style="background-color: #233342;"><a href="./fun.html"><u>Fun</u></a></div>
+            </div>
+        </div>
+    </div>
+
+<!-- MAIN CONTENT -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+            
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12 large-12"></br></div>
+                    <div class="cell small-12 large-6">
+                        <h3>Hobbies</h2>
+                            <h4>Watching Movies/TV shows</h4>
+                            <ul>
+                                <li>Black Sails</li>
+                                <li>Lord of the Rings/The Hobbit</li>
+                                <li>Good Omens</li>
+                                <li>Arcane</li>
+                                <li>Daredevil</li>
+                                <li>...</li>
+                            </ul>
+                            <h4>Reading</h4>
+                            <ul>
+                                <li>Gideon the Nineth</li>
+                                <li>The Hobbit/LotR</li>
+                                <li>Dune</li>
+                                <li>Eragon</li>
+                            </ul>
+                            <h4>Video Games</h4>
+                            <ul>
+                                <li>The Last of Us Parts I & II</li>
+                                <li>The Witcher 3 Wild Hunt</li>
+                                <li>Hollow Knight</li>
+                                <li>Hades</li>
+                            </ul>
+                            <h4>Guitar</h4>
+                            <h4>Art</h4>
+                            <h4>Music</h4>
+                        </div>
+                    
+
+                    <div class="cell small-12 large-6">
+                        <h3>Pets</h2>
+                            <img src="./gizmo.jpg" alt="cat-Gizmo">
+                        <h5>Gizmo</h5>
+                        <img src="./loki.jpg" alt="cat-Loki">
+                        <h5>Loki</h5>
+                    </div>
+                    
+                    <div class="cell small-12 large-6">
+                        <h3>Travel</h2>
+                            <img src="./rome1.jpg" alt="pantheon">
+                            <h5>The Pantheon</h5>
+                            <img src="./rome2.jpg" alt="ostiaAntica">
+                            <h5>Ostia Antica</h5>
+                            <img src="./rome3.jpg" alt="duomo">
+                            <h5>Florence Duomo</h5>
+                    </div>
+                    
+                    <div class="cell small-12 large-6"><h3>Goals</h2>
+                        <p class="smallFont">not necessarily in order</p>
+                        <h4>Graduate</h4>
+                        <h4>Find a job</h4>
+                        <h4>Buy a home</h4>
+                        <h4>Archery</h4>
+                        <h4>Learn ASL</h4>
+                        <h4>Solo camping and hiking trip</h4>
+                        <h4>Self-defense classes</h4>
+                        <h4>Fix posture</h4>
+                    </div>
+            
+            </div>
+        
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
