@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>projects</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="off-canvas-wrapper hide-for-large">
+      <div class="grid-x grid-padding-x">
+            <button type="button" class="menu-icon" data-toggle="offCanvas"></button>    
+      </div>
+     <h1>Projects</h1>     
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+         <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="./index.html">Home Page</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./fun.html">Fun</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class= "show-for-large">
+    <!-- main content within a `grid-container` -->
+        <div class="grid-container">
+            <!-- `grid-x` represents a row -->
+            <div class="grid-x grid-padding-x">
+                <div class="cell large-3" style="background-color: #233342;"><a href="./index.html">Home Page</a></div>
+                <div class="cell large-3" style="background-color: #233342;"><a href="./resume.html">Resume</a></div>
+                <div class="cell large-3" style="background-color: #233342;"><a href="./projects.html"><u>Projects</u></a></div>
+                <div class="cell large-3" style="background-color: #233342;"><a href="./fun.html">Fun</a></div>
+            </div>
+        </div>
+    </div>
+
+<!-- MAIN CONTENT -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+            
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12 large-12"></br></br></div>
+
+                    <div class="cell small-12 large-12"><h3>Digital Watch</h1></div>
+                        <div class="cell small-12 large-6"><p>
+                        </br>
+                            Designed and coded a digital watch on 
+                            a BASYS3 board, in Verilog, for 
+                            ENGR 230 - Digital Design. The watch used the 
+                            4 seven-segment displays to display hours and 
+                            minutes and 6 LEDs to display seconds in binary.
+                            Additionally, the last 2 LEDs were used to display AM/PM. 
+                            The digital watch also contained 4 input buttons 
+                            allowing the user to set the time by increasing and 
+                            decreasing the hour and minute counters.</p>
+                        </div>
+                        <div class="cell small-12 large-6"><img src="./digitalClock.jpg" alt="digital clock on BASYS3 board"></div>
+                        <div class="cell small-12 large-12"></br></br></div>
+
+                    <div class="cell small-12 large-12"><h3>Driver Monitoring System</h1></div>
+                        <div class="cell small-12 large-6"><p>
+                        </br>
+                        Driver inattentiveness is one of the leading causes of car accidents 
+                        every year. Drowsiness, fatigue, and distractions, such as texting, 
+                        changing stations on the radio, and eating, are all forms of 
+                        inattentiveness. Driver’s must remain aware of their surroundings in 
+                        order to anticipate and prevent potentially dangerous situations from 
+                        occurring. Previous research has explored various methods of detecting 
+                        drowsiness and other forms of inattentiveness in drivers. The goal of 
+                        the proposed system is to monitor and identify inattentiveness and 
+                        drowsiness in drivers by way of electromyography (EMG) to monitor eye 
+                        blink rate, electroencephalography (EEG) to monitor brain activity, and 
+                        electrocardiography (ECG) signals to monitor heart rate. Through this 
+                        research it was determined that single-channel EEG from the channel F7 
+                        electrode, placed near the temple above the frontal lobe, was a suitable 
+                        and convenient location for determining drowsiness and alertness in 
+                        drivers, producing an average accuracy of 67.378%. From the observed 
+                        data it was possible to locate and idenitify decernable patterns 
+                        indicative of drowsy and alert states in the F7 channel. These results 
+                        furthered the goal of creating an accessible, non-invasive, compact 
+                        system able to automatically detect distracted and drowsy driving to 
+                        act as a warning system, alerting users of inattentive and dangerous 
+                        behavior. </p>
+                        </div>
+                        <div class="cell small-12 large-6"><img src="./driverMonitoring.jpg" alt="EEGGraph"></div>
+                        <div class="cell small-12 large-12"></br></br></div>
+                    
+                    <div class="cell small-12 large-12"><h3>Wearable Posture Monitoring System</h1></div>
+                        <div class="cell small-12 large-6"><p>
+                        </br>
+                        The goal of the proposed system was to automatically track a user's 
+                        postural positions throughout the day through the use of a non-invasive, 
+                        wearable system and automatically provide feedback to change their posture. 
+                        This was done by placing 
+                        magnets in the form of a rectangular grid on a shirt as well as an MMR sensor 
+                        on the chest of the body. The onboard magnetic sensor records the data values 
+                        from the grid of magnetics, which is then, along with data recorded from the 
+                        onboard accelerometer, analyzed to determine the position of the user. A trained 
+                        algorithm recognizes and automatically detects the spinal position of the user from
+                        the recorded data points and provides direction to alter posture. These 
+                        recommendations act as a warning system and allow the user to self-monitor to 
+                        prevent back and neck pain and reduce the chance of long-lasting damage that can result from poor posture.
+                        </p>
+                        </div>
+                        <div class="cell small-12 large-6"></br><img src="./postureMonitoring.jpg" alt="posture graph"></div>
+                        <div class="cell small-12 large-12"></br></br></div>
+                    
+                </div>
+            
+            </div>
+        
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
